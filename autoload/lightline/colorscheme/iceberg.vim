@@ -60,4 +60,7 @@ let s:p.tabline.right  = [ [s:mono4, s:mono1, s:c_mono4, s:c_mono1],
                          \ [s:mono5, s:mono0, s:c_mono5, s:c_mono0] ]
 let s:p.tabline.tabsel = [ [s:mono5, s:mono0, s:c_mono5, s:c_mono0] ]
 
+let s:p.normal.error   = [ [s:mono0, s:red, s:c_mono0, s:c_red] ]
+let s:p.normal.warning = [ [s:mono0, s:orange, s:c_mono0, s:c_orange] ]
+
 let g:lightline#colorscheme#iceberg#palette = s:p
