@@ -10,21 +10,21 @@ let s:mono2   = '#3d425b'
 let s:mono3   = '#444b71'
 let s:mono4   = '#818596'
 let s:mono5   = '#c6c8d1'
-let s:c_mono0 = 234
-let s:c_mono1 = 0
-let s:c_mono2 = 236
-let s:c_mono3 = 8
-let s:c_mono4 = 7
-let s:c_mono5 = 15
+let s:c_mono0 = 2
+let s:c_mono1 = 12
+let s:c_mono2 = 25
+let s:c_mono3 = 20
+let s:c_mono4 = 26
+let s:c_mono5 = 10
 
 let s:red      = '#e27878'
 let s:green    = '#b4be82'
 let s:blue     = '#84a0c6'
 let s:orange   = '#e2a478'
 let s:c_red    = 9
-let s:c_green  = 10
-let s:c_blue   = 12
-let s:c_orange = 3
+let s:c_green  = 6
+let s:c_blue   = 5
+let s:c_orange = 11
 
 let s:p = {
       \ 'normal' : {}, 
@@ -58,5 +58,6 @@ let s:p.tabline.left   = [ [s:mono4, s:mono1, s:c_mono4, s:c_mono1],
                          \ [s:mono0, s:mono4, s:c_mono0, s:c_mono4] ]
 let s:p.tabline.right  = [ [s:mono4, s:mono1, s:c_mono4, s:c_mono1], 
                          \ [s:mono5, s:mono0, s:c_mono5, s:c_mono0] ]
+let s:p.tabline.tabsel = [ [s:mono5, s:mono0, s:c_mono5, s:c_mono0] ]
 
 let g:lightline#colorscheme#iceberg#palette = s:p
