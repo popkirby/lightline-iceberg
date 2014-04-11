@@ -10,21 +10,21 @@ let s:mono2   = '#3d425b'
 let s:mono3   = '#444b71'
 let s:mono4   = '#818596'
 let s:mono5   = '#c6c8d1'
-let s:c_mono0 = 2
-let s:c_mono1 = 12
-let s:c_mono2 = 25
-let s:c_mono3 = 20
-let s:c_mono4 = 26
-let s:c_mono5 = 10
+let s:c_mono0 = 235
+let s:c_mono1 = 237
+let s:c_mono2 = 236
+let s:c_mono3 = 239
+let s:c_mono4 = 245
+let s:c_mono5 = 252
 
 let s:red      = '#e27878'
 let s:green    = '#b4be82'
 let s:blue     = '#84a0c6'
 let s:orange   = '#e2a478'
-let s:c_red    = 9
-let s:c_green  = 6
-let s:c_blue   = 5
-let s:c_orange = 11
+let s:c_red    = 203
+let s:c_green  = 150
+let s:c_blue   = 110
+let s:c_orange = 216
 
 let s:p = {
       \ 'normal' : {}, 
